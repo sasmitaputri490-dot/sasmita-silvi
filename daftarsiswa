@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Siswa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>Daftar Siswa Kelas XI-RPL</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="daftarsiswa.html" class="active">Daftar Siswa</a></li>
+            <li><a href="strukturkelas.html">Struktur Kelas</a></li>
+            <li><a href="jadwalpela*jaran.html">Jadwal Pelajaran</a></li>
+            <li><a href="gurupengajar.html">Guru Pengajar</a></li>
+            <li><a href="jadwalpiket.html">Jadwal Piket</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="content">
+    <h2>Daftar 35 Siswa</h2>
+
+    <div class="siswa-grid">
+        <div class="siswa-card"><img src="aisyah.jpeg" alt="AISYAH HARI AFIKA LIAWATI"><p>1. AISYAH HARI AFIKA LIAWATI</p></div>
+        <div class="siswa-card"><img src="andika.jpeg" alt="ANDIKA WAHYU UTAMA"><p>2. ANDIKA WAHYU UTAMA</p></div>
+        <div class="siswa-card"><img src="anita.jpeg" alt="ANITA"><p>3. ANITA</p></div>
+        <div class="siswa-card"><img src="aurel Image.jpeg" alt="AUREL ELFILIANA NADJWA PUTRI"><p>4. AUREL ELFILIANA NADJWA PUTRI</p></div>
+        <div class="siswa-card"><img src="idar.jpeg" alt="CHAIDARUR ROHMAN"><p>5. CHAIDARUR ROHMAN</p></div>
+        <div class="siswa-card"><img src="caca Image.jpeg" alt="CHARISSA MARTHA DEWI"><p>6. CHARISSA MARTHA DEWI</p></div>
+        <div class="siswa-card"><img src="dinda Image.jpeg" alt="DINDA NUR LANIA DEWI"><p>7. DINDA NUR LANIA DEWI</p></div>
+        <div class="siswa-card"><img src="astuti Image.jpeg" alt="DWI ASTUTI"><p>8. DWI ASTUTI</p></div>
+        <div class="siswa-card"><img src="dini Image.jpeg" alt="ELVIANA JOVITA ANDINI"><p>9. ELVIANA JOVITA ANDINI</p></div>
+        <div class="siswa-card"><img src="diva Image.jpeg" alt="ERDIVA BERLIANA PUTRI"><p>10. ERDIVA BERLIANA PUTRI</p></div>
+        <div class="siswa-card"><img src="aga Image.jpeg" alt="KEANY AGATHA NADZIF"><p>11. KEANY AGATHA NADZIF</p></div>
+        <div class="siswa-card"><img src="nisa Image.jpeg" alt="KHOIRUN NISYA"><p>12. KHOIRUN NISYA</p></div>
+        <div class="siswa-card"><img src="aan Image.jpeg" alt="KHOYRUL RAHMADHANI"><p>13. KHOYRUL RAHMADHANI</p></div>
+        <div class="siswa-card"><img src="kirana Image.jpeg" alt="KIRANA DWI RAHMAYANI"><p>14. KIRANA DWI RAHMAYANI</p></div>
+        <div class="siswa-card"><img src="kusnul Image.jpeg"KUSNUL KHOTIMAH"><p>15. KUSNUL KHOTIMAH</p></div>
+        <div class="siswa-card"><img src="lila Image.jpeg" alt="LILA NUR LATIFAH"><p>16. LILA NUR LATIFAH</p></div>
+        <div class="siswa-card"><img src="lukman Image.jpeg" alt="LUKMAN ARDIANSYAH ROMADHONI"><p>17. LUKMAN ARDIANSYAH ROMADHONI</p></div>
+        <div class="siswa-card"><img src="mafud Image.jpeg" alt="MACHFUDZ KHASAN"><p>18. MACHFUDZ KHASAN</p></div>
+        <div class="siswa-card"><img src="ika Image.jpeg" alt="MARATUS SHOLIHAH"><p>19. MARATUS SHOLIHAH</p></div>
+        <div class="siswa-card"><img src="marsya Image.jpeg" alt="MARSYA NISWA AZZAHRA"><p>20. MARSYA NISWA AZZAHRA</p></div>
+        <div class="siswa-card"><img src="rafael Image.jpeg" alt="MOH RAFAEL RIZKY ABADI"><p>21. MOH RAFAEL RIZKY ABADI</p></div>
+        <div class="siswa-card"><img src="novita.jpeg" alt="NOVITA ANGGRAENI"><p>22. NOVITA ANGGRAENI</p></div>
+        <div class="siswa-card"><img src="kasan.jpeg" alt="NUR KHASAN"><p>23. NUR KHASAN</p></div>
+        <div class="siswa-card"><img src="nuriyah.jpeg" alt="NUR KHOLIFAH"><p>24. NUR KHOLIFAH</p></div>
+        <div class="siswa-card"><img src="renata.jpeg" alt="RENATA PUTRI"><p>25. RENATA PUTRI</p></div>
+        <div class="siswa-card"><img src="arin.jpeg" alt="RIFA ARINAL HAQ"><p>26. RIFA ARINAL HAQ</p></div>
+        <div class="siswa-card"><img src="ririn Image.jpeg" alt="RIRIN IDA AULIA"><p>27. RIRIN IDA AULIA</p></div>
+        <div class="siswa-card"><img src="risma Image.jpeg" alt="RISMA VINUSTIKA"><p>28. RISMA VINUSTIKA</p></div>
+        <div class="siswa-card"><img src="sasmita Image.jpeg" alt="SASMITA ADINDA PUTRI"><p>29. SASMITA ADINDA PUTRI</p></div>
+        <div class="siswa-card"><img src="safa.jpeg" alt="SHAFA ATIKA ZAHRA"><p>30. SHAFA ATIKA ZAHRA</p></div>
+        <div class="siswa-card"><img src="solehah.jpeg" alt="SHOLEKHA"><p>31. SHOLEKHA</p></div>
+        <div class="siswa-card"><img src="silvi.jpeg" alt="SILVIA NUR ROHMAH"><p>32. SILVIA NUR ROHMAH</p></div>
+        <div class="siswa-card"><img src="supri.jpeg" alt="SUPRIADI"><p>33. SUPRIADI</p></div>
+        <div class="siswa-card"><img src="tiara.jpeg" alt="TIARA CELCILYA PUTRI"><p>34. TIARA CELCILYA PUTRI</p></div>
+        <div class="siswa-card"><img src="datul.jpeg" alt="WAHIDATUL MUHAROM"><p>35. WAHIDATUL MUHAROM</p></div>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2025 XI-RPL</p>
+</footer>
+</body>
+</html>
