@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jadwal Piket XI-RPL</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🧹 Jadwal Piket XI-RPL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="daftarsiswa.html">Daftar Siswa</a></li>
+                <li><a href="strukturkelas.html">Struktur Kelas</a></li>
+                <li><a href="jadwalpelajaran.html">Jadwal Pelajaran</a></li>
+                <li><a href="gurupengajar.html">Guru Pengajar</a></li>
+                <li><a href="jadwalpiket.html" class="active">Jadwal Piket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="jadwal-section">
+            <h2>📋 Jadwal Piket Kelas XI-RPL</h2>
+
+            <div class="jadwal-container">
+                <div class="jadwal-card">
+                    <h3>Senin</h3>
+                    <ul>
+                        <li>Aisyah</li>
+                        <li>Aulia</li>
+                        <li>Safa</li>
+                        <li>Putri</li>
+                        <li>Dini</li>
+                        <li>Rafael</li>
+                        <li>A'an</li>
+                    </ul>
+                </div>
+                <div class="jadwal-card">
+                    <h3>Selasa</h3>
+                    <ul>
+                        <li>Kirana</li>
+                        <li>Kusnul</li>
+                        <li>Lila</li>
+                        <li>Ika</li>
+                        <li>Risma</li>
+                        <li>Andika</li>
+                        <li>Mahfud</li>
+                    </ul>
+                </div>
+                <div class="jadwal-card">
+                    <h3>Rabu</h3>
+                    <ul>
+                        <li>Novita</li>
+                        <li>Arin</li>
+                        <li>Silvi</li>
+                        <li>Diva</li>
+                        <li>Aurel</li>
+                        <li>Idar</li>
+                        <li>Khasan</li>
+                    </ul>
+                </div>
+                <div class="jadwal-card">
+                    <h3>Kamis</h3>
+                    <ul>
+                        <li>Renatha</li>
+                        <li>Charissa</li>
+                        <li>Dinda</li>
+                        <li>Eka</li>
+                        <li>Tiara</li>
+                        <li>Supri</li>
+                        <li>Aga</li>
+                    </ul>
+                </div>
+                <div class="jadwal-card">
+                    <h3>Jumat</h3>
+                    <ul>
+                        <li>Nurya</li>
+                        <li>Marsha</li>
+                        <li>Datul</li>
+                        <li>Astuti</li>
+                        <li>Nisya</li>
+                        <li>Anita</li>
+                        <li>Lukman</li>
+                    </ul>
+                </div>
+            </div>
+
+            <p class="pesan">✨ Kebersihan adalah sebagian dari iman ✨<br>🌸 Maka jagalah kebersihan! 🌸</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 XI-RPL</p>
+    </footer>
+</body>
+</html>
