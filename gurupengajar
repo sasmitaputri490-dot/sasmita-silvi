@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Guru Pengajar XI-RPL</title>
+<link rel="stylesheet" href="style.css">
+<style>
+body {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    background-color: #f4f6fc;
+}
+
+header {
+    background: linear-gradient(90deg, #007BFF, #6A5ACD);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 10px 0 0 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+nav ul li a:hover, .active {
+    text-decoration: underline;
+}
+
+.guru-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.guru-section h2 {
+    font-size: 26px;
+    margin-bottom: 35px;
+    color: #333;
+}
+
+.guru-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 25px;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.guru-card {
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.guru-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+.guru-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.guru-card h3 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.guru-card p {
+    font-size: 14px;
+    color: #555;
+    margin: 4px 0;
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 12px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+</style>
+</head>
+<body>
+
+<header>
+    <h1>Guru Pengajar XI-RPL</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="daftarsiswa.html">Daftar Siswa</a></li>
+            <li><a href="strukturkelas.html">Struktur Kelas</a></li>
+            <li><a href="jadwalpelajaran.html">Jadwal Pelajaran</a></li>
+            <li><a href="gurupengajar.html" class="active">Guru Pengajar</a></li>
+            <li><a href="jadwalpiket.html">Jadwal Piket</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="guru-section">
+    <h2>👩‍🏫 Guru Pengajar Kelas XI-RPL</h2>
+
+    <div class="guru-container">
+
+        <div class="guru-card">
+            <img src="pak nuril.jpeg" alt=" Nuril Anwar">
+            <h3> Nuril Anwar, S.Kom., Gr.</h3>
+            <p><strong>Mata Pelajaran:</strong> Pemrograman Web</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu tata.jpeg" alt=" Ariesta Ika Sofiana">
+            <h3> Ariesta Ika Sofiana, S.pd</h3>
+            <p><strong>Mata Pelajaran:</strong> Matematika</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu mira.jpeg" alt=" Miratush Solihah">
+            <h3>Miratush Solihah, S.pd</h3>
+            <p><strong>Mata Pelajaran:</strong> Bahasa Indonesia</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="mis fada.jpeg" alt=" Faridlatus Sya'adah">
+            <h3> Faridlatus Sya'adah, S.S</h3>
+            <p><strong>Mata Pelajaran:</strong> Bahasa Inggris</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="pak diin.jpeg" alt=" Nurul Mubtadiin">
+            <h3>Nurul Mubtadiin, S.pd.I</h3>
+            <p><strong>Mata Pelajaran:</strong> PAI</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu etty.jpeg" alt=" Etty Setiawati">
+            <h3> Etty Setiawati, S.S</h3>
+            <p><strong>Mata Pelajaran:</strong> PPKN</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="mama.jpeg" alt="Yuli Rohmawati">
+            <h3> Yuli Rohmawati, S.pd</h3>
+            <p><strong>Mata Pelajaran:</strong> Sejarah</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="pak nurdin.jpeg" alt=" Noordin Dwiono">
+            <h3> Noordin Dwiono, S.pd</h3>
+            <p><strong>Mata Pelajaran:</strong> PJOK</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu tika.jpeg" alt="Pratika Agustina Wulandari">
+            <h3>Pratika Agustina Wulandari, S.pd</h3>
+            <p><strong>Mata Pelajaran:</strong> Bahasa Jawa</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu yulia.jpeg" alt="Yulia Suci Lusiana">
+            <h3> Yulia Suci Lusiana, S.Psi</h3>
+            <p><strong>Mata Pelajaran:</strong> BK</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu ponco.jpeg" alt="Yuni Ponco Hariati">
+            <h3>Yuni Ponco Hariati, S.SI</h3>
+            <p><strong>Mata Pelajaran:</strong> PKK</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="pak arno.jpeg" alt=" Suwarno">
+            <h3>Suwarno, S.kom</h3>
+            <p><strong>Mata Pelajaran:</strong> Produktif Pilihan</p>
+        </div>
+
+        <div class="guru-card">
+            <img src="bu ika.jpeg" alt=" Dzurrotun nasihah">
+            <h3> Dzurrotun nasihah, S.Kom</h3>
+            <p><strong>Mata Pelajaran:</strong> PBO Mobile</p>
+        </div>
+
+    </div>
+</section>
+<footer>
+    <p>&copy; 2025 XI-RPL</p>
+</footer>
+</body>
+</html>-
