@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Kelas XI-RPL</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 15px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 10px 0 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin: 5px 10px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+            padding: 6px 14px;
+            border-radius: 8px;
+            transition: 0.3s;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: white;
+        }
+
+        .content {
+            text-align: center;
+            padding: 30px;
+        }
+
+        h2 {
+            color: #1a1aff;
+            margin-bottom: 25px;
+        }
+
+        .struktur-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 25px;
+            justify-items: center;
+            padding: 20px;
+        }
+
+        .card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+            padding: 15px;
+            width: 230px;
+            text-align: center;
+            transition: transform 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .card img {
+            width: 100%;
+            height: 260px;
+            object-fit: cover; 
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+            font-size: 18px;
+            color: #222;
+        }
+
+        .card p {
+            font-size: 15px;
+            color: #555;
+            margin: 4px 0;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #007bff;
+            color: white;
+            padding: 12px 0;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Struktur Kelas XI-RPL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="daftarsiswa.html">Daftar Siswa</a></li>
+                <li><a href="strukturkelas.html" class="active">Struktur Kelas</a></li>
+                <li><a href="jadwalpelajaran.html">Jadwal Pelajaran</a></li>
+                <li><a href="gurupengajar.html">Guru Pengajar</a></li>
+                <li><a href="jadwalpiket.html">Jadwal Piket</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content">
+        <h2>Struktur Organisasi Kelas XI-RPL</h2>
+
+        <div class="struktur-grid">
+            <div class="card">
+                <img src="pak nuril.jpeg" alt="Nuril Anwar">
+                <h3>Nuril Anwar S.Kom</h3>
+                <p><strong>Jabatan:</strong> Kepala Jurusan</p>
+            </div>
+
+            <div class="card">
+                <img src="bu ponco.jpeg" alt="Yuni Ponco Hariati">
+                <h3>Yuni Ponco Hariati S.SI</h3>
+                <p><strong>Jabatan:</strong> Wali Kelas</p>
+            </div>
+
+            <div class="card">
+                <img src="idar.jpeg" alt="Chaidarur Rohman">
+                <h3>Chaidarur Rohman</h3>
+                <p><strong>Jabatan:</strong> Ketua Kelas</p>
+            </div>
+
+            <div class="card">
+                <img src="andika.jpeg" alt="Andika Wahyu Utama">
+                <h3>Andika Wahyu Utama</h3>
+                <p><strong>Jabatan:</strong> Wakil Ketua</p>
+            </div>
+
+            <div class="card">
+                <img src="ririn Image.jpeg" alt="Ririn Ida Aulia">
+                <h3>Ririn Ida Aulia</h3>
+                <p><strong>Jabatan:</strong> Sekretaris 1</p>
+            </div>
+
+            <div class="card">
+                <img src="lila Image.jpeg" alt="Lila Nur Latifah">
+                <h3>Lila Nur Latifah</h3>
+                <p><strong>Jabatan:</strong> Sekretaris 2</p>
+            </div>
+
+            <div class="card">
+                <img src="risma Image.jpeg" alt="Risma Vinustika">
+                <h3>Risma Vinustika</h3>
+                <p><strong>Jabatan:</strong> Bendahara 1</p>
+            </div>
+
+            <div class="card">
+                <img src="kusnul Image.jpeg" alt="Kusnul Khotimah">
+                <h3>Kusnul Khotimah</h3>
+                <p><strong>Jabatan:</strong> Bendahara 2</p>
+            </div>
+
+            <div class="card">
+                <img src="ika Image.jpeg" alt="Maratus Sholihah">
+                <h3>Mar'atus Sholihah</h3>
+                <p><strong>Jabatan:</strong> Kebersihan</p>
+            </div>
+
+            <div class="card">
+                <img src="tiara.jpeg" alt="Tiara Celcilya Putri">
+                <h3>Tiara Celcilya Putri</h3>
+                <p><strong>Jabatan:</strong> Kekeluargaan</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 XI-RPL</p>
+    </footer>
+</body>
+</html>
