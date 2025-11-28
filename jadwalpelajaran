@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadwal Pelajaran XI-RPL</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      background-color: #f4f6fc;
+    }
+
+    header {
+      background: linear-gradient(90deg, #007bff, #5a8dee);
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 5px 10px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      padding: 6px 14px;
+      border-radius: 8px;
+      transition: 0.3s;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      background-color: rgba(255, 255, 255, 0.25);
+    }
+
+    section.content {
+      padding: 40px;
+      overflow-x: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #007bff;
+      margin-bottom: 20px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      background-color: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: left;
+      vertical-align: top;
+    }
+
+    th {
+      background-color: #007bff;
+      color: white;
+      text-align: center;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+
+    tr:hover {
+      background-color: #eef5ff;
+      transition: 0.2s;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #007bff;
+      color: white;
+      padding: 12px 0;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Jadwal Pelajaran XI-RPL</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="daftarsiswa.html">Daftar Siswa</a></li>
+        <li><a href="strukturkelas.html">Struktur Kelas</a></li>
+        <li><a href="jadwalpelajaran.html" class="active">Jadwal Pelajaran</a></li>
+        <li><a href="gurupengajar.html">Guru Pengajar</a></li>
+        <li><a href="jadwalpiket.html">Jadwal Piket</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="content">
+    <h2>Jadwal Pelajaran XI-RPL Semester Ganjil 2025</h2>
+    <table class="data-table">
+      <tr>
+        <th>Hari</th>
+        <th>Jam & Mata Pelajaran</th>
+      </tr>
+
+      <tr>
+        <td><strong>Senin</strong></td>
+        <td>
+          <ul>
+            <li>07.00 - 07.40 → Ceremony</li>
+            <li>07.40 - 09.00 → Bahasa Inggris</li>
+            <li>09.00 - 09.40 → PJOK</li>
+            <li>09.40 - 10.00 → Break</li>
+            <li>10.00 - 10.40 → PJOK</li>
+            <li>10.40 - 12.00 → Sejarah</li>
+            <li>12.00 - 12.30 → Break</li>
+            <li>12.30 - 13.10 → B6-RPL</li>
+            <li>13.10 - 13.50 → BKK</li>
+            <li>13.50 - 15.10 → PPKN</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td><strong>Selasa</strong></td>
+        <td>
+          <ul>
+            <li>07.00 - 08.20 → B7-RPL</li>
+            <li>08.20 - 09.40 → PAI</li>
+            <li>09.40 - 10.00 → Break</li>
+            <li>10.00 - 10.40 → PAI</li>
+            <li>10.40 - 12.00 → MTK</li>
+            <li>12.00 - 12.30 → Break</li>
+            <li>12.30 - 13.10 → MTK</li>
+            <li>13.10 - 15.10 → Bahasa Indonesia</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td><strong>Rabu</strong></td>
+        <td>
+          <ul>
+            <li>07.00 - 08.20 → Bahasa Jawa</li>
+            <li>08.20 - 09.40 → Bahasa Inggris</li>
+            <li>09.40 - 10.00 → Break</li>
+            <li>10.00 - 12.00 → B8A-RPL</li>
+            <li>12.00 - 12.30 → Break</li>
+            <li>12.30 - 13.10 → B8A-RPL</li>
+            <li>13.10 - 15.10 → B7-RPL</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td><strong>Kamis</strong></td>
+        <td>
+          <ul>
+            <li>07.00 - 09.40 → B6-RPL</li>
+            <li>09.40 - 10.00 → Break</li>
+            <li>10.00 - 12.00 → B6-RPL</li>
+            <li>12.00 - 12.30 → Break</li>
+            <li>12.30 - 15.10 → B6-RPL</li>
+          </ul>
+        </td>
+      </tr>
+
+      <tr>
+        <td><strong>Jumat</strong></td>
+        <td>
+          <ul>
+            <li>07.00 - 09.00 → B6-RPL</li>
+            <li>09.00 - 09.40 → Break</li>
+            <li>09.40 - 11.20 → B6-RPL</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 XI-RPL</p>
+  </footer>
+</body>
+</html>3
